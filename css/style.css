@@ -25,3 +25,35 @@ h1 {
     vertical-align: middle;
     margin: 1rem;
 }
+
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+nav {
+    background-color: white;
+    margin: 2rem auto 0.5rem;
+    border-radius: 2px 2px 0 0;
+}
+
+button {
+    padding: 0.3rem 1rem;
+    border-radius: 10%;
+    margin: 0.5rem 0rem 0.5rem;
+}
+
+#blue-button {
+    background-color: #47adf1;
+    color: white;
+}
+
+#transparent-button {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #d3d6db;
+    color: #d3d6db;
+}
+
+.standard-left-margin {
+    margin-left: 4rem;
+}
