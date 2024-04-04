@@ -32,9 +32,9 @@ main {
 }
 
 nav {
-    background-color: white;
     margin: 2rem auto 0.5rem;
-    border-radius: 2px 2px 0 0;
+    border-radius: 2px;
+    background-color: white;
 }
 
 button {
@@ -43,12 +43,12 @@ button {
     margin: 0.5rem 0rem 0.5rem;
 }
 
-#blue-button {
+.blue-button {
     background-color: #47adf1;
     color: white;
 }
 
-#transparent-button {
+.transparent-button {
     background-color: rgba(0, 0, 0, 0);
     border-color: #d3d6db;
     color: #d3d6db;
@@ -56,4 +56,34 @@ button {
 
 .standard-left-margin {
     margin-left: 4rem;
+}
+
+div {
+    background-color: white;
+}
+
+.section {
+    list-style-type: "▼";
+    margin-top: 2rem;
+}
+
+.tag {
+    font-size: 0.7rem;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+}
+
+.purple {
+    background-color: #9b71e3;
+}
+
+.green {
+    background-color: #62bfa8;
+}
+
+.orange {
+    background-color: #f29e33;
 }
