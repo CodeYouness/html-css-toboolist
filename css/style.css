@@ -28,7 +28,7 @@ h1 {
 
 main {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 60%;
 }
 
 nav {
@@ -38,6 +38,7 @@ nav {
 }
 
 button {
+    border: solid transparent 1px;
     padding: 0.3rem 1rem;
     border-radius: 10%;
     margin: 0.5rem 0rem 0.5rem;
